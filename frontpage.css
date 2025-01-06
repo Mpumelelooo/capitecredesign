@@ -1,0 +1,76 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url(capitecpictures/redcap.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: Montserrat;
+
+}
+
+.Logo img{
+  width: 80%;
+  max-width: 300px;
+  margin: 20px auto;
+  display: block;
+
+}
+
+
+.started-btn{
+  display: block;
+  margin: 20px auto;
+  background-color: rgb(73, 73, 208);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-family: 'Montserrat';
+  cursor: pointer;
+  text-align: center;
+  width: 200px;
+  border-radius: 200px;
+}
+
+.started-btn:hover{
+  background-color:navy;
+}
+
+@media (max-width: 768px) {
+  body {
+    background-size: cover;
+  }
+}
+
+
+.started-btn {
+  width: 150px;
+  font-size: 0.9rem;
+}
+
+.Logo img{
+  width: 80%;
+  
+
+}
+
+.service-provider-tag{
+  color: black;
+  display: block;
+  margin: 20px auto;
+  font-family: 'Montserrat';
+  text-align: center;
+  font-size: 13px;
+  
+}
+
+
+
+@media (max-width: 480px) {
+
+  .started-btn {
+    width: 140px;
+    font-size: 0.8rem;
+  }
+}

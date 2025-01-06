@@ -5,7 +5,7 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  font-family:"Montserrat";
+  font-family: Montserrat;
 
 }
 
@@ -17,24 +17,8 @@ body{
 
 }
 
-.hello-logo{
-  width: 80%;
-  max-width: 100px;
-  margin: 20px auto;
-  display: block;
 
-}
-
-
-.grade-topic{
-  margin: 20px auto;
-  max-width: 800px;
-  text-align: center;
-  color: black;
-  
-  }
-
-.signin-btn{
+.started-btn{
   display: block;
   margin: 20px auto;
   background-color: rgb(73, 73, 208);
@@ -49,26 +33,7 @@ body{
   border-radius: 200px;
 }
 
-.signin-btn:hover{
-  background-color:navy;
-}
-
-.open-btn{
-  display: block;
-  margin: 20px auto;
-  background-color: rgb(73, 73, 208);
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  font-family: 'Montserrat';
-  cursor: pointer;
-  text-align: center;
-  width: 200px;
-  border-radius: 200px;
-}
-
-.open-btn:hover{
+.started-btn:hover{
   background-color:navy;
 }
 
@@ -79,30 +44,34 @@ body{
 }
 
 
-.signin-btn {
+.started-btn {
   width: 150px;
   font-size: 0.9rem;
 }
 
-.open-btn {
-  width: 150px;
-  font-size: 0.9rem;
-
-}
 .Logo img{
   width: 80%;
+  
+
 }
+
+.service-provider-tag{
+  color: black;
+  display: block;
+  margin: 20px auto;
+  font-family: 'Montserrat';
+  text-align: center;
+  font-size: 13px;
+  
+}
+
 
 
 @media (max-width: 480px) {
 
-  .signin-btn {
-    width: 140px;
-    font-size: 0.8rem;
-  }
-
-  .open-btn {
+  .started-btn {
     width: 140px;
     font-size: 0.8rem;
   }
 }
+

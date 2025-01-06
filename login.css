@@ -1,0 +1,156 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url(capitecpictures/redcap.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family:"Montserrat";
+
+}
+
+.Logo img{
+  width: 80%;
+  max-width: 300px;
+  margin: 20px auto;
+  display: block;
+
+}
+
+.cap-logo{
+  width: 80%;
+  max-width: 100px;
+  margin: 20px auto;
+  display: block;
+
+}
+
+
+.grade-topic{
+  margin: 20px auto;
+  max-width: 800px;
+  text-align: center;
+  color:  black;
+  
+  }
+
+  .div-border{
+    background-color: white;
+    color: white;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 0 auto;
+    width: 70%;
+    max-width: 600px;
+    box-shadow: 0 4px 6px rgba(0 , 0, 0, 0.1);
+  }
+
+  .small-border{
+    background-color: rgb(73, 73, 208);
+    border-radius: 10px;
+    padding-top: 8px;
+  }
+
+  .credit-border{
+    background-color: brown;
+    border-radius: 10px;
+    padding-top: 8px;
+  }
+
+  .info-header{
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+  }
+
+  .inquiry-text,
+  .inquiry-contact,
+  .thank-you {
+    font-size: 1rem;
+    line-height: 1,6;
+    margin-bottom: 15px;
+  }
+
+  .inquiry-contact strong{
+    display: block;
+    margin-top: 1.6;
+    font-size: 1.1rem;
+  }
+
+  .inquiry-contact .icon {
+    margin-right: 5px;
+  }
+
+.open-btn{
+  display: block;
+  margin: 20px auto;
+  background-color: rgb(73, 73, 208);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-family: 'Montserrat';
+  cursor: pointer;
+  text-align: center;
+  width: 200px;
+  border-radius: 200px;
+}
+
+.open-btn:hover{
+  background-color:navy;
+}
+
+@media (max-width: 768px) {
+  body {
+    background-size: cover;
+  }
+}
+
+
+.signin-btn {
+  width: 150px;
+  font-size: 0.9rem;
+}
+
+.open-btn {
+  width: 150px;
+  font-size: 0.9rem;
+
+}
+.Logo img{
+  width: 80%;
+}
+
+
+@media (max-width: 480px) {
+
+  .signin-btn {
+    width: 140px;
+    font-size: 0.8rem;
+  }
+
+  .open-btn {
+    width: 140px;
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    font-size: 1.8rem;
+    margin-top: 50px;
+  }
+
+  .div-border {
+    padding: 20px;
+  }
+
+  .info-header{
+    font-size: 1.3rem;
+  }
+
+  .inquiry-text,
+  .inquiry-contact,
+  .thank-you {
+    font-size: 0.9rem;
+  }
+}
